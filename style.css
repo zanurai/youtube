@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    margin: auto;
+    width: 1100px;
+    text-align: center;
+}
+
+.main h1 {
+    color: white;
+    margin-top: 5%;
+}
+
+.main a {
+    visibility: hidden;
+}
+
+.main button {
+    background-image: url(youtube.png);
+    width: 130px;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospaces;
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgb(17, 17, 231);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.img img {
+    width: 50px;
+    position: relative;
+    top: 17px;
+    border-radius: 10px;
+    background-color: white;
+}
